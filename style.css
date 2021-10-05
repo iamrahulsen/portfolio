@@ -10,7 +10,15 @@ html {
 	scroll-behavior: smooth;
 }
 a {
-	text-decoration: none;
+	text-decoration: underline;
+	font-weight: bold;
+	color: whitesmoke;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+	Text-Align: justify;
 }
 .container {
 	min-height: 100vh;
@@ -31,6 +39,7 @@ p {
 	line-height: 2.5rem;
 	font-weight: 300;
 	letter-spacing: .05rem;
+	Text-Align: justify;
 }
 .section-title {
 	font-size: 4rem;
@@ -66,6 +75,7 @@ p {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
+	
 }
 .brand h1 span {
 	color: crimson;
